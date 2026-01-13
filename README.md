@@ -16,6 +16,8 @@ Features:
 -Relies only on routine, non-intrusive academic signals
 -Privacy-aware system design
 
+Google Drive Link: https://drive.google.com/file/d/1T9DGGEZKEHchpzhBnTDc1VUH-d8gr80D/view?usp=drive_link
+
 ## Tech Stack
 Frontend
 -Language:TypeScript
