@@ -1,48 +1,58 @@
 Project Name: Silent Signals
 
 Description
-Silent Signals is an academic risk detection system that uses machine learning–based anomaly detection to identify students who may be disengaging academically. Instead of relying on self-reported surveys, the system analyzes routine academic signals such as attendance, assignment delays, and grades to flag early warning signs.
+Silent Signals is an AI-powered academic early-warning system designed to identify students who may be gradually disengaging from academics by analyzing routine behavioral signals.
 
-The project focuses on early intervention, explainability, and privacy-aware design, making it suitable for educational institutions and mentoring programs.
+Instead of relying on self-reported surveys or intrusive monitoring, the system uses objective academic indicators such as attendance patterns and sleep behavior to surface early warning signs. These signals are processed through explainable rule-based metrics, while Google Gemini AI interprets historical trends to generate meaningful insights and mentor recommendations.
 
-# Demo Video Link: <insert Google Drive link to the demo video of the working of your project>
+The project emphasizes early intervention, explainability, and privacy-aware design, making it suitable for educational institutions, mentoring programs, and academic support systems.
 
- Features:
-- Automated data cleaning and standardization pipeline
-- Machine learning–based anomaly detection using Isolation Forest
-- Early identification of academically at-risk students
-- No self-reported or subjective input required
-- Interpretable outputs (Normal / At Risk)
-- CSV-based workflow suitable for backend integration
-- Scalable design for future real-time deployment
+
+Features:
+-Supports manual entry and Excel (XLSX/CSV) uploads for attendance and sleep data
+-Rule-based calculation of stress, mood, and risk levels (Low / Medium / High)
+-Uses Gemini AI to analyze historical student patterns and generate actionable insights
+-Detects disengagement trends before academic failure occurs
+-Relies only on routine, non-intrusive academic signals
+-Privacy-aware system design
 
 ## Tech Stack
-- **Language:** Python
-- **Data Processing:** pandas
-- **Machine Learning:** scikit-learn (Isolation Forest)
-- **Backend (Planned):** Firebase Cloud Functions
-- **Database (Planned):** Firebase Firestore
-- **Local Testing:** Firebase Emulator Suite
-- **Version Control:** Git & GitHub
+Frontend
+-Language:TypeScript
+-Framework:React (Vite)
+-UI Styling:Tailwind CSS
+-Data Visualization:Recharts
+-File Processing:XLSX(Excel sheet import)
+
+Backend
+-Runtime:Node.js(TypeScript)
+-Backend Platform:Firebase Cloud Function
+-AI Integration:Gemini (Gemini 1.5 Pro)
+
+Database: Firebase Firestore
+Data Model: NoSQL (student behavioral time-series records)
+
+Development & Testing 
+-Local Testing:Firebase Emulator Suite
+-Package Management:npm
+-Build Tool:Vite
 
 ## Google Technologies Used
 
-- **Firebase Firestore** – Intended to store cleaned academic data and ML-generated risk predictions
-- **Firebase Cloud Functions** – Planned for automating ML inference and triggering alerts
-- **Firebase Emulator Suite** – Used to locally test backend logic during development
-- **Firebase Hosting** – Planned for deploying the frontend dashboard
+- **Firebase Firestore**
+- Intended to store student behavioral records (attendance, sleep hours, stress etc)
+- Stores user profiles(mentor/student)
+- **Firebase Cloud Functions**
+- Acts as the secure backend API layer (handling authentication request, student data storage & retrieval)
+- **Firebase Emulator Suite**
+- Used to locally test backend logic during development
+- Local testing of cloud functions and Firestore interactions.
 
 
-## Setup Instructions
-Steps to run the project locally:
-1. Clone the repository
-2. Install dependencies
-3. Add environment variables (if any)
-4. Run the project
 
 ## Team Members
-- Nikhil Shet
-- Ashwal Lawrence Dmello
-- Aaron Tauro
-- Chris Dsouza
+- Nikhil Shet - Front end
+- Ashwal Lawrence Dmello - Front end
+- Aaron Tauro- Project backend lead
+- Chris Dsouza-Firebase emulator backend
 
