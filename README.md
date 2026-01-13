@@ -7,7 +7,6 @@ Instead of relying on self-reported surveys or intrusive monitoring, the system 
 
 The project emphasizes early intervention, explainability, and privacy-aware design, making it suitable for educational institutions, mentoring programs, and academic support systems.
 
-# Demo Video Link: <insert Google Drive link to the demo video of the working of your project>
 
 Features:
 -Supports manual entry and Excel (XLSX/CSV) uploads for attendance and sleep data
