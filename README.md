@@ -19,7 +19,7 @@ Features:
 ## Tech Stack
 Frontend
 -Language:TypeScript
--Framework:React
+-Framework:React (Vite)
 -UI Styling:Tailwind CSS
 -Data Visualization:Recharts
 -File Processing:XLSX(Excel sheet import)
