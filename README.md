@@ -47,8 +47,7 @@ Development & Testing
 - **Firebase Emulator Suite**
 - Used to locally test backend logic during development
 - Local testing of cloud functions and Firestore interactions.
-- **Firebase Hosting** 
-- Planned for deploying the frontend React dashboard
+
 
 
 ## Team Members
