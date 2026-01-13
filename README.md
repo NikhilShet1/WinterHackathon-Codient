@@ -51,8 +51,8 @@ Development & Testing
 
 
 ## Team Members
-- Nikhil Shet
-- Ashwal Lawrence Dmello
-- Aaron Tauro
-- Chris Dsouza
+- Nikhil Shet - Front end
+- Ashwal Lawrence Dmello - Front end
+- Aaron Tauro- Project backend lead
+- Chris Dsouza-Firebase emulator backend
 
